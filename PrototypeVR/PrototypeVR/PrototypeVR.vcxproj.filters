@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{8fe2d791-26e5-4909-99d6-6b88d62ae3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_LibOVR">
+      <UniqueIdentifier>{0cc9e45c-cd17-44cd-849b-9834d88b56d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="_Libs\_LibOVRKernel">
+      <UniqueIdentifier>{5fd41d3f-99ff-4bb1-b4c9-cf37ce3e6c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_LibOVR\include">
+      <UniqueIdentifier>{36e0a5e3-97d1-47ee-956d-032ad9bd5d4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\LibOVR_Adaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VR_Avatar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VR_Calibrator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VR_Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VR_Canvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VR_Eye.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VRCameraManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VRManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VRShadersData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VRStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PrototypeVR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\OVR_CAPI_0_5_0.h">
+      <Filter>_Libs\_LibOVR\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\OVR_CAPI_D3D.h">
+      <Filter>_Libs\_LibOVR\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\OVR_CAPI_GL.h">
+      <Filter>_Libs\_LibOVR\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\OVR_CAPI_Keys.h">
+      <Filter>_Libs\_LibOVR\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\OVR_CAPI_Util.h">
+      <Filter>_Libs\_LibOVR\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\OVR_Kernel.h">
+      <Filter>_Libs\_LibOVR\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\OVR_Version.h">
+      <Filter>_Libs\_LibOVR\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\OVR.h">
+      <Filter>_Libs\_LibOVR\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\OVR_CAPI.h">
+      <Filter>_Libs\_LibOVR\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\Extras\OVR_Math.h">
+      <Filter>_Libs\_LibOVR\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\VR_Avatar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VR_Calibrator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VR_Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VR_Canvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VR_Eye.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VRCameraManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VRManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LibOVR_Adaptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PrototypeVR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\LibOVRKernel\Lib\Windows\Win32\Debug\VS2012\LibOVRKernel.lib">
+      <Filter>_Libs\_LibOVRKernel</Filter>
+    </Library>
+    <Library Include="..\LibOVR\Lib\Windows\Win32\Debug\VS2012\LibOVR.lib">
+      <Filter>_Libs\_LibOVR</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

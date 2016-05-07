@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NullObject.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulMain.cpp" />
+    <ClCompile Include="AzulCore.cpp" />
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicModel.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Math\lib\MathDebug.lib">
+      <Filter>_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathRelease.lib">
+      <Filter>_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileDebug.lib">
+      <Filter>_Libs\_File</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileRelease.lib">
+      <Filter>_Libs\_File</Filter>
+    </Library>
+    <Library Include="..\PCSTree\lib\PCSTreeDebug.lib">
+      <Filter>_Libs\_PCSTree</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeDebug.lib">
+      <Filter>_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\PCSTree\lib\PCSTreeRelease.lib">
+      <Filter>_Libs\_PCSTree</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeRelease.lib">
+      <Filter>_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLTools\lib\gltoolsDebug.lib">
+      <Filter>_Libs\_GLTools</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLTools\lib\gltoolsRelease.lib">
+      <Filter>_Libs\_GLTools</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLFW\lib\GLFW3Debug.lib">
+      <Filter>_Libs\_GLFW</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLFW\lib\GLFW3Release.lib">
+      <Filter>_Libs\_GLFW</Filter>
+    </Library>
+    <Library Include="..\PrototypeVR\lib\PrototypeVRDebug.lib">
+      <Filter>_Libs\_PrototypeVR</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{2cb38ae4-8112-483f-89dc-3ee30f8bbf5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{033fc5a8-ac47-4111-9a54-90af2ae7a4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{34d4503f-a18a-4de1-b709-19b8f22d12fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Time">
+      <UniqueIdentifier>{146d0fa5-a3e7-499d-95b4-0a04abcdfd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Time\include">
+      <UniqueIdentifier>{9939be1f-cf93-459f-8f82-a8ca47dbf9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_PCSTree">
+      <UniqueIdentifier>{c3530f79-bf90-4961-9421-a7ee64101f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_PCSTree\include">
+      <UniqueIdentifier>{afc1cd65-b5f9-470c-8d43-93aa0e4bce14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Math">
+      <UniqueIdentifier>{381e9c85-01d7-42a8-bdbe-f74927e8a2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Math\include">
+      <UniqueIdentifier>{b5dc21b1-7a1a-40f1-808f-ceff58ce11a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_GLTools">
+      <UniqueIdentifier>{f07ce561-f2c7-4a92-839e-8e2f628cea7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_GLFW">
+      <UniqueIdentifier>{53ff9123-c18b-4577-87bf-33e6c5cfa974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_File">
+      <UniqueIdentifier>{d7c315c2-3584-4986-bad2-52ecd69a9421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_File\include">
+      <UniqueIdentifier>{c3d53df5-bbfa-4724-8d45-23ac33ad35c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{8c9598c2-8d30-4938-865c-8f051ed151a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_PrototypeVR">
+      <UniqueIdentifier>{d974f6e6-d025-4218-87ae-f3f73d7bf39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_PrototypeVR\include">
+      <UniqueIdentifier>{180e3e76-e32b-4dcf-a9f2-991b5980e2a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserInterface.h" />
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NullObject.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureData.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathApp.h">
+      <Filter>_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathEngine.h">
+      <Filter>_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\include\File.h">
+      <Filter>_Libs\_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree\include\PCSNode.h">
+      <Filter>_Libs\_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree\include\PCSTree.h">
+      <Filter>_Libs\_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\include\Time.h">
+      <Filter>_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\include\Timer.h">
+      <Filter>_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\GLTools\include\GLTools.h">
+      <Filter>_Libs\_GLTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\GLFW\include\glfw3.h">
+      <Filter>_Libs\_GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulCore.h" />
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicModel.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkHeader.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageHeader.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjectBufferHdr.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjectFileHdr.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
